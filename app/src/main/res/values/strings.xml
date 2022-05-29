@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="btn_add_note">Add Note</string>
+    <string name="titleHint">Title</string>
+    <string name="descriptionHint">Description</string>
+    <string name="btnNote">NOTE</string>
+    <string name="btnAddNoteF">+\nN\nO\nT\nE</string>
+    <string name="btnQoute">Famous\nQuotes</string>
+    <string name="btnOther">BBC NEWS</string>
+
+
+</resources>

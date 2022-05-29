@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".ui.activities.FirstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                app:cardCornerRadius="30dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/slider11" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights">
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/goToAllNotes"
+                    style="@style/Widget.Neumorph.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:drawablePadding="8dp"
+                    android:text="@string/btnNote"
+
+                    android:textSize="42sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/goToAddNote"
+                    style="@style/Widget.Neumorph.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:drawablePadding="3dp"
+                    android:text="@string/btnAddNoteF"
+                    android:textColor="@color/white"
+                    app:neumorph_backgroundColor="@color/back_neu"
+                    app:neumorph_shadowColorLight="@color/light_color"
+                    app:neumorph_shadowColorDark="@color/dark_color"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="SmallSp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/goToAoi"
+                    style="@style/Widget.Neumorph.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawablePadding="8dp"
+                    android:text="@string/btnQoute"
+                    android:textColor="@color/white"
+                    app:neumorph_backgroundColor="@color/back_neu"
+                    app:neumorph_shadowColorLight="@color/light_color"
+                    app:neumorph_shadowColorDark="@color/dark_color"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <soup.neumorphism.NeumorphButton
+                    android:id="@+id/other"
+                    style="@style/Widget.Neumorph.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawablePadding="8dp"
+                    android:text="@string/btnOther"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <soup.neumorphism.NeumorphFloatingActionButton
+                    android:id="@+id/exit"
+                    style="@style/Widget.Neumorph.FloatingActionButton"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="12dp"
+                    android:textColor="@color/white"
+                    app:neumorph_backgroundColor="@color/back_neu"
+                    app:neumorph_shadowColorLight="@color/light_color"
+                    app:neumorph_shadowColorDark="@color/dark_color"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_outline_keyboard_return_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

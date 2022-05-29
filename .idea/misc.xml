@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/background_selector.xml" value="0.10400000000000001" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1575" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.1575" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1575" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.11" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1575" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1575" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/ic_outline_keyboard_return_24.xml" value="0.1675" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/shape_button.xml" value="0.1025" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/shape_button1.xml" value="0.1" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/shape_button2.xml" value="0.1285" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/shape_button3.xml" value="0.1285" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/shape_button4.xml" value="0.1285" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/drawable/shape_rounded.xml" value="0.2375" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/activity_first.xml" value="0.264" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/activity_news.xml" value="0.2391304347826087" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/activity_quote.xml" value="0.25" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/activity_show_notes.xml" value="0.264" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/dcdc.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/first_slide.xml" value="0.264" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/item_qoute.xml" value="0.264" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/item_recy.xml" value="0.136" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/item_recycler_news.xml" value="0.264" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/itemq.xml" value="0.264" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/shape_rounded.xml" value="0.25" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/tttt.xml" value="0.176" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/layout/wwefd.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1415" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1415" />
+        <entry key="..\:/Projects/Holosen/Final Project/Note/app/src/main/res/mipmap-anydpi-v26/slider_round.xml" value="0.1415" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
